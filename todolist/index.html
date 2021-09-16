@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>To Do List</title>
+<link href="libs/fontawesomepro/css/all.min.css" rel="stylesheet" type="text/css" />
+
+<!-- fontaesome -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+<!-- materialize css1 js1 -->
+<link href="libs/materialize.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+
+				<div id="main" class="card">
+
+					<div class="card-content">
+
+						<span class="card-title">Task List</span>
+
+						<div class="row">
+
+							<form id="task-form" action="" method="">
+								<div class="input-field col-12">
+									<label for="task">New Task</label>
+									<input type="text" name="text" id="task" class="">
+								</div>
+
+								<input type="submit" class="btn" value="Add task" />
+							</form>
+						</div>
+					</div>
+
+					<div class="card-action">
+						<h5>All Tasks</h5>
+
+						<div class="input-field col-12">
+							<label class="filter">Filter Tasks</label>
+							<input type="text" name="filter" id="filter" class="">
+						</div>
+
+						<ul class="collection"></ul>
+
+
+						<a href="#" class="btn clear-tasks">Clear Tasks</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
+<!-- materialize js-->
+<script src="libs/materialize.js" type="text/javascript"></script>
+<script src="js/newjs/app.js" type="text/javascript"></script>
+</body>
+</html>
